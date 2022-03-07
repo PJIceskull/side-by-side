@@ -1,0 +1,22 @@
+nav {
+  max-width: $content-width;
+  margin: 0 auto;
+  min-height: $nav-footer-height;
+  background-color: $site-background;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    width: 136px;
+    height: 45px;
+    background-color: coral;
+  }
+  .links {
+    a {
+      text-decoration: none;
+      margin-left: 23px;
+      color: #ffffff;
+    }
+  }
+}
