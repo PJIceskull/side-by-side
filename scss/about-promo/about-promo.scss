@@ -1,0 +1,22 @@
+.about-Promo {
+  max-width: $content-width;
+  min-height: 304px;
+  background-color: coral;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .promo {
+    @include promo();
+
+    .promo-text {
+      font-size: 24px;
+      font-family: sans-serif;
+      margin-bottom: 60px;
+    }
+    .read-btn {
+      //   @include site-button();
+      //   @include site-button(0 20px, 10px 30px);
+      @include site-button($btnPadding: 20px 30px);
+    }
+  }
+}
